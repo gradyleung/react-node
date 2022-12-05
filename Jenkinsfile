@@ -1,9 +1,9 @@
 pipeline {
     agent { label '120.24.97.46'} 
     stages {
-        stage('Build') { 
+        stage('更新开始') {
             steps {
-                sh 'npm install' 
+                echo '更新开始'
             }
         }
     }
