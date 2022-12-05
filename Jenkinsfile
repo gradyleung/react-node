@@ -1,12 +1,14 @@
 pipeline {
     agent {
-        label '120.24.97.46'
+        docker {
+            image 'node:6-alpine' 
+            args '-p 3000:3000' 
+        }
     }
     stages {
-        stage('更新开始') {
+        stage('Build') { 
             steps {
-                echo '更新开始'
-                sh 'printenv'
+                sh 'npm install' 
             }
         }
     }
