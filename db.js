@@ -8,7 +8,7 @@ const db = {
   post: '3306',
   user: 'root',
   password: 'abcd1234',
-  database: 'react-app'
+  database: 'reactApp'
 }
 const conn = mysql.createConnection(db)
 conn.connect((err) => {
