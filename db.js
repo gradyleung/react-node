@@ -3,8 +3,8 @@
 const mysql = require('mysql')
 const db = {
   connectionLimit: 10,
-  host: '127.0.0.1',
-  // host: '120.24.97.46',
+  // host: '127.0.0.1',
+  host: '120.24.97.46',
   post: '3306',
   user: 'root',
   password: 'abcd1234',
