@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-for test jenkins
-=======
-for test jenkins
->>>>>>> 8f9c3b4228eb5373be8dfe48730ae6392e13db46
+## pkg 打包node
+    pkg . -t node16-win-x64 --out-path=dist/ 打包报错，下载不到这个二进制文件，改为自动选择版本指令
