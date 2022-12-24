@@ -9,6 +9,7 @@ const db = {
   password: 'abcd1234',
   database: 'reactApp'
 }
+
 const conn = mysql.createConnection(db)
 conn.connect((err) => {
   // 连接数据库
