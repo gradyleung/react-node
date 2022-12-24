@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node index.js",
     "node": "nodemon --exec babel-node index",
-    "pkg": "pkg -t win ./ --out-path=dist"
+    "pkg": "pkg -t linux ./ --out-path=dist"
   },
   "bin": "index.js",
   "author": "",
